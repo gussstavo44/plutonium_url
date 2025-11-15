@@ -1,79 +1,47 @@
 {
+  "_meta": {
+    "sources": [
+      {
+        "json": "SPELLFIRE_HOMEBREW",
+        "abbreviation": "SFHB",
+        "fullname": "Spellfire Homebrew",
+        "version": "1.0.0",
+        "authors": ["Your Name"],
+        "convertedBy": ["Your Name"],
+        "url": "https://raw.githubusercontent.com/gussstavo44/plutonium_url/main/spellfire_homebrew.json"
+      }
+    ]
+  },
+
   "background": [
     {
       "name": "Spellfire Initiate",
-      "source": "Heroes of Faerun",
-      "page": null,
-      "skills": [
-        "arcana",
-        "perception"
+      "source": "SPELLFIRE_HOMEBREW",
+      "ability": [
+        { "con": 1 },
+        { "int": 1 },
+        { "cha": 1 }
+      ],
+      "skillProficiencies": [
+        "Arcana",
+        "Perception"
       ],
       "toolProficiencies": [
-        {
-          "choose": {
-            "from": ["gaming set"],
-            "count": 1
-          }
-        }
-      ],
-      "ability": {
-        "cha": 1,
-        "con": 1,
-        "int": 1
-      },
-      "entries": [
-        "You bear the gift of spellfire: a rare form of magic that channels the raw power of the Weave. Wielding spellfire takes a heavy toll on the body. You’ve trained both mind and body to efficiently wield this sacred power.",
-        {
-          "type": "entries",
-          "name": "Feat",
-          "entries": [
-            "{@feat Spellfire Spark|Homebrew}"
-          ]
-        }
+        "Gaming Set"
       ],
       "equipment": [
-        {
-          "type": "list",
-          "style": "list-hang-notitle",
-          "items": [
-            "Choose A or B:",
-            {
-              "type": "item",
-              "entry": "A) Gaming Set (same as above), Arcane Focus (Crystal or Wand), 2 Pouches, Traveler’s Clothes, 36 GP"
-            },
-            {
-              "type": "item",
-              "entry": "B) 50 GP"
-            }
-          ]
-        }
-      ]
+        "Gaming Set",
+        "Arcane Focus",
+        "2 Pouches",
+        "Traveler’s Clothes",
+        "36 GP"
+      ],
+      "entries": [
+        "You bear the gift of spellfire..."
+      ],
+      "feat": "Spellfire Spark"
     }
   ],
+
   "feat": [
-    {
-      "name": "Spellfire Spark",
-      "source": "Heroes of Faerun",
-      "page": null,
-      "prerequisite": [],
-      "entries": [
-        "_Origin Feat_",
-        "You gain the following benefits.",
-        {
-          "type": "entries",
-          "name": "Magic Absorption",
-          "entries": [
-            "Once per turn, when you take damage from a spell or magical effect, you reduce the total damage taken by 1d4. You can’t use this benefit if you have the Incapacitated condition."
-          ]
-        },
-        {
-          "type": "entries",
-          "name": "Spellfire Flame",
-          "entries": [
-            "You learn the {@spell sacred flame} cantrip. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat). You can also cast this cantrip as a Bonus Action a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."
-          ]
-        }
-      ]
-    }
-  ]
-}
+
