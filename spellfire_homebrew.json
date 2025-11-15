@@ -6,8 +6,8 @@
         "abbreviation": "SFHB",
         "fullname": "Spellfire Homebrew",
         "version": "1.0.0",
-        "authors": ["Your Name"],
-        "convertedBy": ["Your Name"],
+        "authors": ["Gustavo Rosa"],
+        "convertedBy": ["Gustavo Rosa"],
         "url": "https://cdn.jsdelivr.net/gh/gussstavo44/plutonium_url@main/spellfire_homebrew.json"
       }
     ]
@@ -60,7 +60,7 @@
           "type": "entries",
           "name": "Spellfire Flame",
           "entries": [
-            "You learn the {@spell sacred flame} cantrip. Intelligence, Wisdom, or Charisma is your spellcasting ability (choose when you gain this feat). You can also cast this cantrip as a Bonus Action a number of times equal to your Proficiency Bonus, regaining all uses when you finish a Long Rest."
+            "You learn the {@spell sacred flame} cantrip. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you gain this feat). You can also cast this cantrip as a Bonus Action a number of times equal to your Proficiency Bonus, regaining all uses when you finish a Long Rest."
           ]
         }
       ]
