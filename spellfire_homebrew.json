@@ -44,5 +44,26 @@
   ],
 
   "feat": [
-
-
+    {
+      "name": "Spellfire Spark",
+      "source": "SPELLFIRE_HOMEBREW",
+      "prerequisite": [],
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Magic Absorption",
+          "entries": [
+            "Once per turn, when you take damage from a spell..."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Spellfire Flame",
+          "entries": [
+            "You learn the Sacred Flame cantrip..."
+          ]
+        }
+      ]
+    }
+  ]
+}
