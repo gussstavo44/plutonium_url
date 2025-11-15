@@ -8,11 +8,10 @@
         "version": "1.0.0",
         "authors": ["Your Name"],
         "convertedBy": ["Your Name"],
-        "url": "https://raw.githubusercontent.com/gussstavo44/plutonium_url/main/spellfire_homebrew.json"
+        "url": "https://cdn.jsdelivr.net/gh/gussstavo44/plutonium_url@main/spellfire_homebrew.json"
       }
     ]
   },
-
   "background": [
     {
       "name": "Spellfire Initiate",
@@ -23,26 +22,26 @@
         { "cha": 1 }
       ],
       "skillProficiencies": [
-        "Arcana",
-        "Perception"
+        "arcana",
+        "perception"
       ],
       "toolProficiencies": [
-        "Gaming Set"
+        { "choose": { "from": ["gaming set"], "count": 1 } }
       ],
       "equipment": [
-        "Gaming Set",
-        "Arcane Focus",
+        "Gaming Set (same as above)",
+        "Arcane Focus (Crystal or Wand)",
         "2 Pouches",
         "Traveler’s Clothes",
-        "36 GP"
+        "36 GP",
+        "OR 50 GP"
       ],
       "entries": [
-        "You bear the gift of spellfire..."
-      ],
-      "feat": "Spellfire Spark"
+        "You bear the gift of spellfire: a rare form of magic that channels the raw power of the Weave. Wielding spellfire takes a heavy toll on the body. You’ve trained both mind and body to efficiently wield this sacred power.",
+        { "type": "entries", "name": "Feat", "entries": ["{@feat Spellfire Spark|SPELLFIRE_HOMEBREW}"] }
+      ]
     }
   ],
-
   "feat": [
     {
       "name": "Spellfire Spark",
@@ -53,14 +52,14 @@
           "type": "entries",
           "name": "Magic Absorption",
           "entries": [
-            "Once per turn, when you take damage from a spell..."
+            "Once per turn, when you take damage from a spell or magical effect, you reduce the total damage taken by 1d4. You can’t use this benefit if you have the Incapacitated condition."
           ]
         },
         {
           "type": "entries",
           "name": "Spellfire Flame",
           "entries": [
-            "You learn the Sacred Flame cantrip..."
+            "You learn the {@spell sacred flame} cantrip. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat). You can also cast this cantrip as a Bonus Action a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."
           ]
         }
       ]
