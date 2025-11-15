@@ -12,6 +12,7 @@
       }
     ]
   },
+
   "background": [
     {
       "name": "Spellfire Initiate",
@@ -22,8 +23,8 @@
         { "cha": 1 }
       ],
       "skillProficiencies": [
-        "arcana",
-        "perception"
+        { "arcana": true },
+        { "perception": true }
       ],
       "toolProficiencies": [
         { "choose": { "from": ["gaming set"], "count": 1 } }
@@ -33,15 +34,15 @@
         "Arcane Focus (Crystal or Wand)",
         "2 Pouches",
         "Traveler’s Clothes",
-        "36 GP",
-        "OR 50 GP"
+        "36 GP"
       ],
       "entries": [
         "You bear the gift of spellfire: a rare form of magic that channels the raw power of the Weave. Wielding spellfire takes a heavy toll on the body. You’ve trained both mind and body to efficiently wield this sacred power.",
-        { "type": "entries", "name": "Feat", "entries": ["{@feat Spellfire Spark|SPELLFIRE_HOMEBREW}"] }
+        "You gain the {@feat Spellfire Spark|SPELLFIRE_HOMEBREW} feat."
       ]
     }
   ],
+
   "feat": [
     {
       "name": "Spellfire Spark",
@@ -59,7 +60,7 @@
           "type": "entries",
           "name": "Spellfire Flame",
           "entries": [
-            "You learn the {@spell sacred flame} cantrip. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat). You can also cast this cantrip as a Bonus Action a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."
+            "You learn the {@spell sacred flame} cantrip. Intelligence, Wisdom, or Charisma is your spellcasting ability (choose when you gain this feat). You can also cast this cantrip as a Bonus Action a number of times equal to your Proficiency Bonus, regaining all uses when you finish a Long Rest."
           ]
         }
       ]
